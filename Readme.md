@@ -63,8 +63,8 @@ pnpm run dev
 
 ## Screenshots
 
-![Chat Interface](./screenshots/chat-interface.png)
-![User Join](./screenshots/user-join.png)
+![Chat Interface](./image2.png)
+![User Join](./image.png)
 
 ## Deployment
 
