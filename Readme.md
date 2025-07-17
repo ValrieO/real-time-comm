@@ -1,93 +1,101 @@
-```markdown
-# Real-Time Chat Application with Socket.io
+# 🚀 Real-Time Chat Application with Socket.io
 
-A real-time chat application demonstrating bidirectional communication between clients and server using Socket.io.
+A modern real-time chat app demonstrating bidirectional communication between clients and server using **Socket.io**.
 
-## Features
+---
 
-- User authentication (username-based)
-- Global chat room for all users
-- Message display with sender's name and timestamp
-- Typing indicators
-- Online/offline status for users
-- Real-time notifications
-- Responsive design
+## ✨ Features
 
-## Technologies Used
+- **User authentication** (username-based)
+- **Global chat room** for all users
+- **Message display** with sender's name & timestamp
+- **Typing indicators**
+- **Online/offline status** for users
+- **Real-time notifications**
+- **Responsive design**
 
-- Node.js
-- Express
-- Socket.io
-- React
-- TypeScript
-- Vite
-- Tailwind CSS (optional)
+---
 
-## Setup Instructions
+## 🛠️ Technologies Used
+
+<p align="left">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" />
+  <img src="https://img.shields.io/badge/Socket.io-010101?style=for-the-badge&logo=socket.io&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white" />
+  <img src="https://img.shields.io/badge/Tailwind%20CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+</p>
+
+---
+
+## ⚡ Setup Instructions
 
 ### Prerequisites
 
-- Node.js v18+
-- pnpm
+- [Node.js v18+](https://nodejs.org/)
+- [pnpm](https://pnpm.io/)
 
 ### Installation
 
-1. Clone the repository
-2. Install dependencies for both server and client:
-
 ```bash
-cd server
-pnpm install
+# Clone the repository
+$ git clone https://github.com/ValrieO/real-time-comm.git
 
-cd ../client
-pnpm install
+# Install dependencies for server
+$ cd server
+$ pnpm install
+
+# Install dependencies for client
+$ cd ../client
+$ pnpm install
 ```
 
 ### Running the Application
 
-1. Start the server:
-
 ```bash
-cd server
-pnpm run dev
+# Start the server
+$ cd server
+$ pnpm run dev
+
+# Start the client
+$ cd ../client
+$ pnpm run dev
 ```
 
-2. Start the client:
+Opened browser and navigated to [http://localhost:5173](http://localhost:5173)
 
-```bash
-cd client
-pnpm run dev
-```
+---
 
-3. Open the client in your browser at `http://localhost:5173`
+## 🖼️ Screenshots
 
-## Screenshots
+<div align="center">
+  <img src="./image2.png" alt="Chat Interface" width="400" />
+  <img src="./image.png" alt="User Join" width="400" />
+</div>
 
-![Chat Interface](./image2.png)
-![User Join](./image.png)
+---
 
-## Deployment
+## 🚀 Deployment
 
 ### Server Deployment
+- [Render](https://render.com/)
 
-You can deploy the server to services like:
-- Render
-- Railway
-- Heroku
 
 ### Client Deployment
 
 You can deploy the client to:
-- Vercel
-- Netlify
-- GitHub Pages
+- [Vercel](https://vercel.com/)
 
-## Future Enhancements
+---
+
+## 🌱 Future Enhancements
 
 - Private messaging between users
 - Multiple chat rooms
 - File/image sharing
 - Read receipts
 - Message reactions
-```
 
+````markdown
