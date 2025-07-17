@@ -72,7 +72,9 @@ Opened browser and navigated to [http://localhost:5173](http://localhost:5173)
 
 <div align="center">
   <img src="./image2.png" alt="Chat Interface" width="400" />
-  <img src="./image.png" alt="User Join" width="400" height="700"/>
+</div>
+<div align="center">
+  <img src="./image.png" alt="User Join"/>
 </div>
 
 ---
