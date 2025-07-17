@@ -1,7 +1,3 @@
-## README.md
-
-Create a comprehensive README.md in the root directory:
-
 ```markdown
 # Real-Time Chat Application with Socket.io
 
